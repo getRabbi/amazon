@@ -440,3 +440,28 @@ textarea.input2 + .focus-input2::after {
     opacity: 1;
   }
 }
+
+
+.deals_title {
+  margin:10px ;
+  color: red;
+  border-bottom: #999999;
+  border: 2px solid;
+}
+.product_container {
+  border: 1px solid rgb(180, 178, 178);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.product_box {
+  width: 200px;
+  height: 250px;
+  border: 1px solid black;
+  margin: 5px;
+  box-shadow: inset 0 0 10px #000000;
+}
